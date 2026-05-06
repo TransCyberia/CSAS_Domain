@@ -10,3 +10,16 @@
 ```shell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 ```
+
+
+```
+Get-NetIPAddress
+```
+
+#   Joining the Workstation to the Domain
+
+
+
+```
+Add-Computer -DomainName CSAS.com -Credential csas\Administrator -Force -Restart
+```

@@ -1,0 +1,37 @@
+{
+    "domain": "csas.com",
+
+    "groups" : [
+        {
+            "name": "CSAS_Employees"
+        }
+    ],
+
+    "users": [
+
+        {
+            "local_admin": ["ws01"],
+            "name": "Alan Burns",
+            "password":"bubbles",
+            "groups": [
+                "CSAS_Employees"
+            ]
+        },
+        {
+            "local_admin": ["ws02"],
+            "name": "Bob Ob",
+            "password":"bubbles",
+            "groups": [
+                "CSAS_Employees"
+            ]
+        },
+        {
+            "local_admin": ["ws01", "ws02", "dc1"],
+            "name": "Charlie Harlie",
+            "password":"bubbles",
+            "groups": [
+                "Employees"
+            ]
+        }
+    ]
+}
